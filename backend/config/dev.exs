@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :backend_api, BackendApi.Repo,
-  username: "postgres",
-  password: "akash",
-  hostname: "localhost",
-  database: "backend_api_dev",
+  username: "avnadmin",
+  password: "AVNS_SEtnt_by4KhlgipR6RD",
+  hostname: "pg-335c37c4-akashkhalekar-8bb7.c.aivencloud.com",
+  database: "defaultdb",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
