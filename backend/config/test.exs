@@ -17,7 +17,7 @@ config :backend_api, BackendApi.Repo,
 # you can enable the server option below.
 config :backend_api, BackendApiWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "Vdf98PpggAl+BPBtA2eaoyU7aC3K9mxC778CWi9xNNdgVqk3efZklqiGyExHclS4",
+  secret_key_base: "tuh0amPrVFanC93agqtxf8Bu6FFumJ6KF3e5w8GonSltkxkxmzPR4/8fO1qJNDnL",
   server: false
 
 # Print only warnings and errors during test
