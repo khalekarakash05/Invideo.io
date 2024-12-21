@@ -21,8 +21,7 @@ if System.get_env("PHX_SERVER") do
 end
 
 if config_env() == :prod do
-  database_url =
-    System.get_env("DATABASE_URL") ||
+  database_url = "postgres://avnadmin:AVNS_SEtnt_by4KhlgipR6RD@pg-335c37c4-akashkhalekar-8bb7.c.aivencloud.com:15378/defaultdb?sslmode=require" ||
       raise """
       environment variable DATABASE_URL is missing.
       For example: ecto://USER:PASS@HOST/DATABASE
