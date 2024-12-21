@@ -6,10 +6,10 @@ import Config
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :backend_api, BackendApi.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "backend_api_test#{System.get_env("MIX_TEST_PARTITION")}",
+  username: "avnadmin",
+  password: "AVNS_SEtnt_by4KhlgipR6RD",
+  hostname: "pg-335c37c4-akashkhalekar-8bb7.c.aivencloud.com",
+  database: "defaultdb",
   pool: Ecto.Adapters.SQL.Sandbox,
   pool_size: System.schedulers_online() * 2
 
