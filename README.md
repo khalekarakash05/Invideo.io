@@ -13,10 +13,19 @@ This is the frontend for the "Two-Tab App" that handles two functionalities:
 - **Rust & WASM**: The calculation is handled by Rust, compiled to WebAssembly (WASM), which runs in the browser.
 - **Result Display**: Displays the calculated result in the React UI.
 
+   ## Preview
+
+   ![Website Screenshot](relative/path/to/screenshot.png)
+
+
 ### Tab 2: AI-based Text-to-Shader
 - **User Input**: A text input where users can describe a shader (e.g., "A rotating cube with a gradient background").
 - **AI Response**: An AI (likely powered by an LLM) provides a response based on the description entered.
 - **Shader Output**: Displays the raw shader code returned by the backend in a `<pre>` tag.
+
+   ## Preview
+
+   ![Website Screenshot](relative/path/to/screenshot.png)
 
 ## Setup Instructions
 
@@ -62,8 +71,8 @@ This is the backend for the "Two-Tab App" that provides an API endpoint for the 
 1. Clone the repository:
 
     ```bash
-git clone https://github.com/yourusername/backend.git
-cd backend
+   git clone https://github.com/yourusername/backend.git
+   cd backend
 
 2. Install Elixir dependencies:
 
