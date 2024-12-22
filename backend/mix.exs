@@ -32,19 +32,19 @@ defmodule BackendApi.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.7.18"},
-      {:phoenix_ecto, "~> 4.5"},
-      {:ecto_sql, "~> 3.10"},
-      {:postgrex, ">= 0.0.0"},
-      {:telemetry_metrics, "~> 1.0"},
-      {:telemetry_poller, "~> 1.0"},
-      {:tesla, "~> 1.13"},
-      {:gettext, "~> 0.26"},
-      {:jason, "~> 1.2"},
-      {:dns_cluster, "~> 0.1.1"},
-      {:bandit, "~> 1.5"},
-      {:dotenv, "~> 3.0.0"},
-      {:cors_plug, "~> 2.0"}
+      {:telemetry_metrics, "~> 0.5"},
+    {:bandit, "~> 0.3"},
+    {:telemetry_poller, "~> 1.0"},
+    {:tesla, "~> 1.4"},
+    {:dotenv, "~> 3.0"},
+    {:jason, "~> 1.2"},
+    {:phoenix, "~> 1.6"},
+    {:dns_cluster, "~> 0.1"},
+    {:gettext, "~> 0.18"},
+    {:postgrex, "~> 0.15"},
+    {:ecto_sql, "~> 3.7"},
+    {:cors_plug, "~> 2.0"},
+    {:phoenix_ecto, "~> 4.1"}
     ]
   end
 

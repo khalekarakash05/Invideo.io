@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :backend_api, BackendApi.Repo,
-  username: "avnadmin",
-  password: "AVNS_SEtnt_by4KhlgipR6RD",
-  hostname: "pg-335c37c4-akashkhalekar-8bb7.c.aivencloud.com",
-  database: "defaultdb",
+  username: "postgres",
+  password: "akash",
+  hostname: "localhost",
+  database: "backend_api_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
@@ -23,7 +23,7 @@ config :backend_api, BackendApiWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "tuh0amPrVFanC93agqtxf8Bu6FFumJ6KF3e5w8GonSltkxkxmzPR4/8fO1qJNDnL",
+  secret_key_base: "gpXiApSPxsBvZlfYccsz4wem0NCwUsnLr7iBpmSu2/AEkgih7RuB1lvUhuHYWJDs",
   watchers: []
 
 # ## SSL Support
