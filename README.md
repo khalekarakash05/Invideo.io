@@ -15,7 +15,7 @@ This is the frontend for the "Two-Tab App" that handles two functionalities:
 
    ## Preview
 
-   ![Website Screenshot](relative/path/to/screenshot.png)
+   ![Tab1](https://github.com/user-attachments/assets/49cf91da-f0bf-40ad-a7d3-e9d07bb5828b)
 
 
 ### Tab 2: AI-based Text-to-Shader
@@ -25,7 +25,7 @@ This is the frontend for the "Two-Tab App" that handles two functionalities:
 
    ## Preview
 
-   ![Website Screenshot](relative/path/to/screenshot.png)
+   ![Tab2](https://github.com/user-attachments/assets/5c27e643-41a8-4945-aa21-3271f13451f2)
 
 ## Setup Instructions
 
