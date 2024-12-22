@@ -22,7 +22,7 @@ This is the frontend for the "Two-Tab App" that handles two functionalities:
 
 1. Clone the repository:
    ```bash
-git clone https://github.com/yourusername/frontend.git
+git clone https://github.com/khalekarakash05/Invideo.io.git
 cd frontend
 
 2. Install dependencies:
